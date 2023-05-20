@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {username}\n\n<b>You need to join in my Channel to get movies files \n\nKindly Please Join Channel  </b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {username}\n<b>You need to join in my Channel to get movies files \n Kindly Please Join Channel \n First Click On Join Chann Then Click On Try Again Option If  You Are Not Getting Files Message To @Harshit_Chatbot </b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
